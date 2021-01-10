@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+   background:url(nkar2.jpg);
+    margin: 0;
+}
+
+
+
+header{
+    background: #4e4b4b; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+#results,
+#calculator{
+  margin: 2rem auto;
+  width: 40rem;
+  min-width: 50%;
+  border: 5px solid #5a5959;
+ background-color: #cdceb4;
+  border-radius: 10px;
+  padding: 1rem;
+  color:#000000;
+  padding: 10px;
+}
+
+#results{
+    text-align: center;
+}
+
+#calculator input{
+    font-size: 3rem;
+    border: 2px solid #ffffff91;
+    border-radius: 3px;
+    width: 10rem;
+    padding: 0.14rem;
+    margin: auto;
+    display: block;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+#calc-actions{
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#calc-actions button {
+    width: 4rem;
+    margin-top: 5px;
+    margin-right:10px ;
+}
+
+
+#calculator  button {
+    background: #bddefd;
+    color: #000000;
+    border: 1px solid #3d6474;
+    padding: 1rem;
+    cursor:pointer;
+}
+
+#calculator  button:hover{
+    background-color:#92d7ff ;
+    box-shadow: 0 0 10px #0087f5, 0 0 40px #8229f7, 0 0 80px #e6fd17;
+}
+
+
